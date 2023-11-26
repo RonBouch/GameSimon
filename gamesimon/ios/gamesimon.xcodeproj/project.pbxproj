@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-gamesimon-gamesimonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-gamesimon-gamesimonTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F9B68EF12B136A4A00B0DA4E /* soundRed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9B68EF02B136A4900B0DA4E /* soundRed.mp3 */; };
+		F9B68EF52B136CA100B0DA4E /* soundBlue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9B68EF22B136CA100B0DA4E /* soundBlue.mp3 */; };
+		F9B68EF62B136CA100B0DA4E /* soundGreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9B68EF32B136CA100B0DA4E /* soundGreen.mp3 */; };
+		F9B68EF72B136CA100B0DA4E /* soundYellow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9B68EF42B136CA100B0DA4E /* soundYellow.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = gamesimon/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-gamesimon-gamesimonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gamesimon-gamesimonTests.release.xcconfig"; path = "Target Support Files/Pods-gamesimon-gamesimonTests/Pods-gamesimon-gamesimonTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F9B68EF02B136A4900B0DA4E /* soundRed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = soundRed.mp3; path = ../src/assets/sound/soundRed.mp3; sourceTree = "<group>"; };
+		F9B68EF22B136CA100B0DA4E /* soundBlue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = soundBlue.mp3; path = ../src/assets/sound/soundBlue.mp3; sourceTree = "<group>"; };
+		F9B68EF32B136CA100B0DA4E /* soundGreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = soundGreen.mp3; path = ../src/assets/sound/soundGreen.mp3; sourceTree = "<group>"; };
+		F9B68EF42B136CA100B0DA4E /* soundYellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = soundYellow.mp3; path = ../src/assets/sound/soundYellow.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				F9B68EF22B136CA100B0DA4E /* soundBlue.mp3 */,
+				F9B68EF32B136CA100B0DA4E /* soundGreen.mp3 */,
+				F9B68EF42B136CA100B0DA4E /* soundYellow.mp3 */,
+				F9B68EF02B136A4900B0DA4E /* soundRed.mp3 */,
 				13B07FAE1A68108700A75B9A /* gamesimon */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* gamesimonTests */,
@@ -242,8 +254,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B68EF72B136CA100B0DA4E /* soundYellow.mp3 in Resources */,
+				F9B68EF62B136CA100B0DA4E /* soundGreen.mp3 in Resources */,
+				F9B68EF52B136CA100B0DA4E /* soundBlue.mp3 in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F9B68EF12B136A4A00B0DA4E /* soundRed.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
